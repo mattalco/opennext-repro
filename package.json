@@ -1,0 +1,24 @@
+{
+  "name": "opennext-cache-repro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "open-next-build": "open-next build",
+    "deploy": "sst deploy"
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@opennextjs/aws": "^4.0.2",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "typescript": "^5.8.0",
+    "sst": "^4.0.0"
+  }
+}
